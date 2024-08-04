@@ -5,7 +5,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Cornike - Business HTML5 Template</title>
+	<title>LandFlex - </title>
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -54,7 +54,7 @@
 				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
 					<ul class="top-info">
 						<li><i class="fa fa-phone">&nbsp;</i><p class="info-text">(+89) 530-352-3027</p></li>
-						<li><i class="fa fa-envelope-o">&nbsp;</i><p class="info-text">info@cornike.com</p></li>
+						<li><i class="fa fa-envelope-o">&nbsp;</i><p class="info-text">info@LandFlex.com</p></li>
 					</ul>
 				</div><!--/ Top info end -->
 
@@ -93,7 +93,7 @@
 				<div class="logo-area clearfix">
 					<div class="logo col-xs-12 col-md-3">
 						 <a href="index.html">
-							<img src="images/logo.png" alt="">
+							<h3 id="logo">LandFlex</h3>
 						 </a>
 					</div><!-- logo end -->
 
@@ -156,20 +156,13 @@
 									
 
 									<ul class="nav navbar-nav">
-										<li class="dropdown active">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
-											<ul class="dropdown-menu" role="menu">
-												<li class="active"><a href="index.html">Home One</a></li>
-												<!-- <li><a href="index-2.html">Home Two</a></li>
-												<li><a href="index-3.html">Home Three</a></li> -->
-											</ul>
-										</li>
+										<li><a href="index.html">Land Flex</a></li>
 										<li><a href="developers.html">For Developers</a></li>
 										<li><a href="landowners.html">For LandOwners</a></li>
 										<li><a href="investors.html">For Investors</a></li>
 										<li><a href="faq.html">Faq</a></li>
-										<li><a href="services.html">Services</a></li>
-										<li><a href="contact2.html">Contact Us</a></li>
+										<!-- <li><a href="services.html">Services</a></li> -->
+										<!-- <li><a href="contact2.html">Contact Us</a></li> -->
 										
 	
 										
@@ -463,8 +456,9 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-12 footer-widget footer-about">
 						<h3 class="widget-title">About Us</h3>
-						<img class="footer-logo" src="images/footer-logo.png" alt="" />
-						<p>Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat.</p>
+						<h1 class="footer-logo">LandFlex</h1>
+						<!-- <img class="footer-logo" src="images/footer-logo.png" alt="" /> -->
+						<p>Using advanced analytics, we identify parcels with development potential across the UK, including both prime and non-prime areas..</p>
 						<div class="footer-social">
 							<ul>
 								<li><a href="#"><i class="fa fa-rss"></i></a></li>
@@ -479,19 +473,17 @@
 					<div class="col-md-4 col-sm-12 footer-widget">
 						<h3 class="widget-title">Services</h3>
 						<ul class="list-arrow">
-							<li><a href="#">Ground Transport</a></li>
-							<li><a href="#">Contract Logistics</a></li>
-							<li><a href="#">Warehousing</a></li>
-							<li><a href="#">Cargo Express</a></li>
-							<li><a href="#">Ocean Freight</a></li>
-							<li><a href="#">Air Freight</a></li>
+							<li><a href="#">Identify Suitable Parcels</a></li>
+							<li><a href="#">Negotiate Land Options</a></li>
+							<li><a href="#">Secure Planning Permission</a></li>
+						
 						</ul>
 					</div><!-- Col end -->
 
 					<div class="col-md-4 col-sm-12 footer-widget">
 						<h3 class="widget-title">Working Hours</h3>
 						<div class="working-hours">
-							We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our Hotline and Contact form.
+							We work 7 days a week, every day excluding major holidays. Contact us if you have any queries, with our Hotline and Contact form.
 							<br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
 							<br> Saturday: <span class="text-right">12:00 - 15:00</span> 
 							<br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
@@ -507,7 +499,9 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="copyright-info">
-							<span>Copyright © 2016 Cornike. All Rights Reserved.</span>
+							<span>Copyright ©   <span id="copyright">
+								<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+							</span> LandFlex. All Rights Reserved.</span>
 						</div>
 					</div>
 
@@ -516,9 +510,7 @@
 							<ul class="nav unstyled">
 								<li><a href="#">Investors</a></li>
 								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Events</a></li>
-								<li><a href="#">Case Studies</a></li>
-								<li><a href="#">Videos</a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -534,6 +526,7 @@
 		</div><!-- Copyright end -->
 
 	</footer><!-- Footer end -->
+
 
 
 	<!-- Javascript Files
